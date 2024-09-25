@@ -1,2 +1,2 @@
 # minka69.
-first repo
+some of my python projects.
