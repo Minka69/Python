@@ -1,2 +1,1 @@
-# minka69.
-some of my python projects.
+Some of my python projects.
