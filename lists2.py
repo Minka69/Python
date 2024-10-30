@@ -1,4 +1,4 @@
-names = ["anna", "oskars", "Jennifer"]
+names = ["anna", "oscar", "Jennifer"]
 
 #for name in names:
 #    print(f"Hey hey {name}!")
