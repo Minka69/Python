@@ -5,11 +5,11 @@ number_target = random.randint(1, 100)
 number_of_guesses = 0
 number_lower = 1
 number_upper = 100
+guesses = []
 
-while True:
-    number_guess = int(input("Uzmini skaitli starp 1 un 100: "))
-    #number_guess = random.randint(number_lower, number_upper)
-
+while True:    
+    number_guess = random.randint(number_lower, number_upper)
+    guesses.append(number_guess)
     number_of_guesses += 1
 
     if number_guess == number_target:
@@ -27,12 +27,4 @@ while True:
         print("Guess lower")
         number_upper = number_guess - 1
 
-    # Add funny teasing messages starting from 5 guesses
-    if number_of_guesses > 5 and number_of_guesses <= 10:
-        print("Still guessing? You’ve got this... maybe.")
-    elif number_of_guesses > 10 and number_of_guesses <= 15:
-        print("You sure you’re not just playing with me?")
-    elif number_of_guesses > 15 and number_of_guesses <= 20:
-        print("Wow, the number must be running circles around you by now!")
-    elif number_of_guesses > 20:
-        print("Okay, this is getting serious. Maybe the number's taking a vacation.")
+print(guesses)
