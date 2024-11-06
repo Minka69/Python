@@ -17,7 +17,7 @@ red = (255, 0, 0)
 
 # Snake properties
 snake_block = 10
-snake_speed = 15
+snake_speed = 10
 snake_body = []
 snake_length = 1
 
