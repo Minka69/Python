@@ -2,7 +2,7 @@ score = 0
 questions = 5
 
 print(f"Welcome to the quiz consisting of {questions} questions")
-while True: 
+while True:
     playing = input("Do you want to play? (yes/no): ")
 
     if playing.lower() == "yes":

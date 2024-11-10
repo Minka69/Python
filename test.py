@@ -10,5 +10,3 @@ summary = Counter(selected_values)
 for animal, count in summary.items():
     percentage = (count / 1000) * 100
     print(f"{animal}: {count} ({percentage:.2f}%)")
-
-
