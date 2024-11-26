@@ -1,1 +1,1 @@
-Some of my python projects.
+All of my python projects.
