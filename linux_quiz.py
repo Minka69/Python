@@ -41,7 +41,7 @@ quiz = [
     },
     {
         "question": "Which of the following is a popular Linux text editor?",
-        "options": ["a) Notepad", "b) Vim", "c) Sublime", "d) MS Word"],
+        "options": ["a) Notepad", "b) Nano", "c) Sublime", "d) MS Word"],
         "answer": "b"
     },
     {
