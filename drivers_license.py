@@ -3,6 +3,6 @@ has_driving_license = True
 licence_country = "EE"
 
 if age >= 18 and has_driving_license and (licence_country in ["LV", "CA", "EE", "LT"]):
-    print("Tu vari vadīt auto.")
+    print("You can drive a car")
 else:
-    print("Tu nevari vadīt auto.")
+    print("You can not drive a car")
